@@ -1,20 +1,180 @@
-<!--The content below is only a placeholder and can be replaced.-->
-<div style="text-align:center">
-  <h1>
-    Welcome to {{ title }}!
-  </h1>
-  <img width="300" alt="Angular Logo" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNTAgMjUwIj4KICAgIDxwYXRoIGZpbGw9IiNERDAwMzEiIGQ9Ik0xMjUgMzBMMzEuOSA2My4ybDE0LjIgMTIzLjFMMTI1IDIzMGw3OC45LTQzLjcgMTQuMi0xMjMuMXoiIC8+CiAgICA8cGF0aCBmaWxsPSIjQzMwMDJGIiBkPSJNMTI1IDMwdjIyLjItLjFWMjMwbDc4LjktNDMuNyAxNC4yLTEyMy4xTDEyNSAzMHoiIC8+CiAgICA8cGF0aCAgZmlsbD0iI0ZGRkZGRiIgZD0iTTEyNSA1Mi4xTDY2LjggMTgyLjZoMjEuN2wxMS43LTI5LjJoNDkuNGwxMS43IDI5LjJIMTgzTDEyNSA1Mi4xem0xNyA4My4zaC0zNGwxNy00MC45IDE3IDQwLjl6IiAvPgogIDwvc3ZnPg==">
-</div>
-<h2>Here are some links to help you start: </h2>
-<ul>
-  <li>
-    <h2><a target="_blank" rel="noopener" href="https://angular.io/tutorial">Tour of Heroes</a></h2>
-  </li>
-  <li>
-    <h2><a target="_blank" rel="noopener" href="https://github.com/angular/angular-cli/wiki">CLI Documentation</a></h2>
-  </li>
-  <li>
-    <h2><a target="_blank" rel="noopener" href="https://blog.angular.io/">Angular blog</a></h2>
-  </li>
-</ul>
+<nav class="navbar navbar-expand-lg navbar-light bg-light shadow fixed-top">
+  <div class="container">
+    <a class="navbar-brand" href="#">ACORN STAIRLIFTS</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
+      aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarResponsive">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Home
+            <span class="sr-only">(current)</span>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Services</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
 
+<!-- Full Page Image Header with Vertically Centered Content -->
+<header class="masthead">
+  <div class="container h-100">
+    <div class="row h-100 align-items-center d-flex justify-content-center">
+      <div class="col-12 d-flex justify-content-center flex-wrap" data-aos="fade-up" data-aos-duration="3000">
+        <h1 class="display-1 headline">ACORN STAIRLIFTS</h1>
+        <p class="lead subline">REGAING OUR INDEPENDENCE</p>
+
+      </div>
+      <div class="bottomBlock">
+        <div class="container">
+          <div class="row d-flex justify-content-center ">
+            <img class="acornLogo" src="../assets/acorn.png" alt="acorn Logo" data-aos="zoom-in-down"
+              data-aos-anchor-placement="bottom-bottom" />
+          </div>
+        </div>
+        <span class="quote acornSlug"> ONE ACORN AT A TIME</span>
+      </div>
+    </div>
+  </div>
+</header>
+
+<!-- Page Content -->
+<section class="py-5">
+  <div class="container">
+    <div class="row d-flex align-items-center">
+      <div class="col-sm-12 col-md-6" data-aos="fade-right">
+        <p class="display-3 quote" data-aos="fade-left">"Great quality,<br>Great service,<br>what a lift!"</p>
+        <span class="quoteAuthor" data-aos="fade-left"> -Jerick Jerickson, CEO of Jerikson and son</span>
+      </div>
+      <div class="col-sm-12  col-md-6 d-flex justify-content-center">
+        <img class="acornMan" src="../assets/acornMan.png" data-aos="fade-left" alt="kyles profile picture review" />
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Feature Section -->
+<section class="pricing-section">
+  <div class="container">
+    <div class="row justify-content-md-center">
+      <div class="col-xl-5 col-lg-6 col-md-8">
+        <div class="section-title text-center title-ex1" data-aos="zoom-out-down" data-aos-duration="2000">
+          <h2 class="display-4 headline">OUR ACORNS</h2>
+          <p>Inventore cillum soluta inceptos eos platea, soluta class laoreet repellendus imperdiet optio.</p>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-4">
+        <div class="price-card" data-aos="flip-down" data-aos-anchor-placement="center-center">
+          <h2>ACORN 130</h2>
+          <p>The standard version</p>
+          <p class="price"><span>49</span>/ Month</p>
+          <ul class="pricing-offers">
+            <li>Straight staircases</li>
+            <li>Backup battery</li>
+            <li>Remote control</li>
+          </ul>
+          <a href="#" class="btn btn-primary btn-mid btn-block">Buy Now</a>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="price-card featured" data-aos="flip-down" data-aos-anchor-placement="center-center">
+          <h2>ACORN 180</h2>
+          <p>Most popular choice</p>
+          <p class="price"><span>69</span>/ Month</p>
+          <ul class="pricing-offers">
+            <li>Folding foot rest</li>
+            <li>8 E-Mail Address</li>
+            <li>Disagnostic display</li>
+            <li>Monthly Bandwidth</li>
+            <li>Powerful Admin Panel</li>
+          </ul>
+          <a href="#" class="btn btn-primary btn-mid btn-block">Buy Now</a>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="price-card" data-aos="flip-down" data-aos-anchor-placement="center-center">
+          <h2>ACORN 130 OUTDOOR</h2>
+          <p>For those sunny days</p>
+          <p class="price"><span>89</span>/ Month</p>
+          <ul class="pricing-offers">
+            <li>Straight staircases</li>
+            <li>Backup battery</li>
+            <li>Remote control</li>
+          </ul>
+          <a href="#" class="btn btn-primary btn-mid btn-block">Buy Now</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- Newsletter -->
+
+<section>
+  <div class="newsletter-subscribe">
+    <div class="container">
+      <div class="intro">
+        <h2 class="text-center">Subscribe for our Newsletter</h2>
+        <p class="text-center">Nunc luctus in metus eget fringilla. Aliquam sed justo ligula. Vestibulum nibh erat,
+          pellentesque ut laoreet vitae. </p>
+      </div>
+      <form class="form-inline" method="post">
+        <div class="form-group"><input class="form-control" type="email" name="email" placeholder="Your Email"></div>
+        <div class="form-group"><button class="btn btn-primary" type="submit">Subscribe </button></div>
+      </form>
+    </div>
+  </div>
+</section>
+
+<!-- footer -->
+
+<section>
+  <div class="footer-clean">
+    <footer>
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-sm-4 col-md-3 item">
+            <h3>Services</h3>
+            <ul>
+              <li><a href="#">Web design</a></li>
+              <li><a href="#">Development</a></li>
+              <li><a href="#">Hosting</a></li>
+            </ul>
+          </div>
+          <div class="col-sm-4 col-md-3 item">
+            <h3>About</h3>
+            <ul>
+              <li><a href="#">Company</a></li>
+              <li><a href="#">Team</a></li>
+              <li><a href="#">Legacy</a></li>
+            </ul>
+          </div>
+          <div class="col-sm-4 col-md-3 item">
+            <h3>Careers</h3>
+            <ul>
+              <li><a href="#">Job openings</a></li>
+              <li><a href="#">Employee success</a></li>
+              <li><a href="#">Benefits</a></li>
+            </ul>
+          </div>
+          <div class="col-lg-3 item social"><a href="#"><i class="icon ion-social-facebook"></i></a><a href="#"><i
+                class="icon ion-social-twitter"></i></a><a href="#"><i class="icon ion-social-snapchat"></i></a><a
+              href="#"><i class="icon ion-social-instagram"></i></a>
+            <p class="copyright">Company Name © 2018</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </div>
+</section>
